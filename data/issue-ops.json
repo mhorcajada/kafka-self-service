@@ -1,0 +1,101 @@
+[
+  {
+    "approvers": ["mhorcajada"],
+    "assignees": [],
+    "category": "topics-users",
+    "description": "Create a KafkaTopic on kafka-cluster: partitions, retention.ms and cleanup.policy.",
+    "enabled": true,
+    "icon": "MessagesSquare",
+    "issueFormTemplate": "kafka-topic.yml",
+    "label": "kafka-topic",
+    "name": "Kafka Topic"
+  },
+  {
+    "approvers": ["mhorcajada"],
+    "assignees": [],
+    "category": "topics-users",
+    "description": "User with tls or scram-sha-512 authentication, simple ACLs and quotas.",
+    "enabled": false,
+    "icon": "KeyRound",
+    "issueFormTemplate": "kafka-user.yml",
+    "label": "kafka-user",
+    "name": "Kafka User"
+  },
+  {
+    "approvers": ["mhorcajada"],
+    "assignees": [],
+    "category": "connect",
+    "description": "Create a connector, change its configuration or set its state: running, paused or stopped.",
+    "enabled": false,
+    "icon": "Plug",
+    "issueFormTemplate": "kafka-connector.yml",
+    "label": "kafka-connector",
+    "name": "Kafka Connector"
+  },
+  {
+    "approvers": ["mhorcajada"],
+    "assignees": [],
+    "category": "connect",
+    "description": "Change Connect workers: image, replicas, resources and probes.",
+    "enabled": false,
+    "icon": "Cable",
+    "issueFormTemplate": "kafka-connect.yml",
+    "label": "kafka-connect",
+    "name": "Kafka Connect"
+  },
+  {
+    "approvers": ["mhorcajada"],
+    "assignees": [],
+    "category": "cluster",
+    "description": "Change the Kafka resource: version, metadataVersion, listeners or broker config.",
+    "enabled": false,
+    "icon": "Server",
+    "issueFormTemplate": "kafka-cluster.yml",
+    "label": "kafka-cluster",
+    "name": "Kafka Cluster"
+  },
+  {
+    "approvers": ["mhorcajada"],
+    "assignees": [],
+    "category": "cluster",
+    "description": "Roles, replicas and storage of a node pool.",
+    "enabled": false,
+    "icon": "Layers",
+    "issueFormTemplate": "kafka-node-pool.yml",
+    "label": "kafka-node-pool",
+    "name": "Kafka Node Pool"
+  },
+  {
+    "approvers": ["mhorcajada"],
+    "assignees": [],
+    "category": "cluster",
+    "description": "Cruise Control rebalance with approval. Requires Cruise Control enabled in the Kafka resource.",
+    "enabled": false,
+    "icon": "Scale",
+    "issueFormTemplate": "kafka-rebalance.yml",
+    "label": "kafka-rebalance",
+    "name": "Kafka Rebalance"
+  },
+  {
+    "approvers": ["mhorcajada"],
+    "assignees": [],
+    "category": "integration",
+    "description": "HTTP/REST API to produce and consume from Kafka.",
+    "enabled": false,
+    "icon": "Globe",
+    "issueFormTemplate": "kafka-bridge.yml",
+    "label": "kafka-bridge",
+    "name": "Kafka Bridge"
+  },
+  {
+    "approvers": ["mhorcajada"],
+    "assignees": [],
+    "category": "integration",
+    "description": "Replication between Kafka clusters for migrations or DR.",
+    "enabled": false,
+    "icon": "ArrowLeftRight",
+    "issueFormTemplate": "kafka-mirror-maker2.yml",
+    "label": "kafka-mirror-maker2",
+    "name": "Kafka MirrorMaker 2"
+  }
+]

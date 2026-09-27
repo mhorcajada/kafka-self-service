@@ -1,0 +1,74 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "issueops-self-service-schema-v1",
+  "title": "Strimzi IssueOps Self-Service Schema",
+  "description": "Catalog of IssueOps shown in the self-service portal",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "approvers": {
+        "type": "array",
+        "description": "List of Approving Users or GitHub Teams",
+        "items": {
+          "type": "string"
+        }
+      },
+      "assignees": {
+        "type": "array",
+        "description": "List of Assigning Users",
+        "items": {
+          "type": "string",
+          "pattern": "^[^/]*$"
+        }
+      },
+      "category": {
+        "type": "string",
+        "description": "Category of the IssueOps Action",
+        "enum": [
+          "topics-users",
+          "connect",
+          "cluster",
+          "integration"
+        ]
+      },
+      "description": {
+        "type": "string",
+        "description": "Description of the IssueOps Action"
+      },
+      "enabled": {
+        "type": "boolean",
+        "description": "true when a workflow processes the request"
+      },
+      "icon": {
+        "type": "string",
+        "description": "Icon of the IssueOps Action"
+      },
+      "issueFormTemplate": {
+        "type": "string",
+        "description": "Issue Form Template of the IssueOps Action",
+        "pattern": "^[^/]*$"
+      },
+      "label": {
+        "type": "string",
+        "description": "Label of the IssueOps Action"
+      },
+      "name": {
+        "type": "string",
+        "description": "Name of the IssueOps Action"
+      }
+    },
+    "required": [
+      "approvers",
+      "assignees",
+      "category",
+      "description",
+      "enabled",
+      "icon",
+      "issueFormTemplate",
+      "label",
+      "name"
+    ],
+    "additionalProperties": false
+  }
+}
