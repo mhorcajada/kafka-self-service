@@ -87,6 +87,15 @@ HTTP/REST API to produce to and consume from Kafka.
 
 Replication of topics and consumer group offsets between Kafka clusters, for migrations or disaster recovery.
 
+## Portal variants
+
+| Path | Variant |
+|---|---|
+| `/` | Default portal |
+| `/quironsalud` | Quirónsalud branding, in Spanish. Brand use authorized by Quirónsalud |
+
+Each variant has its own root layout under `src/app/` (route groups `(portal)` and `(quironsalud)`), its texts in `src/lib/brands.ts` and its theme variables in `src/app/globals.css`. The Quirónsalud logo is served from `public/quironsalud/`.
+
 ## Repository layout
 
 | Path | Content |
@@ -102,6 +111,7 @@ Catalog entry fields:
 | Field | Description |
 |---|---|
 | `name`, `description` | Card title and text |
+| `description_es` | Card text in Spanish, used by the Quirónsalud variant |
 | `icon` | [Lucide](https://lucide.dev/icons) icon name |
 | `category` | `topics-users`, `connect`, `cluster` or `integration` |
 | `issueFormTemplate` | Issue form file in the processing repository |

@@ -1,28 +1,33 @@
-import { IssueOpGrid, PortalHeader } from '@/components/issue-op-grid'
+import {
+  IssueOpGrid,
+  PortalFooter,
+  PortalHeader
+} from '@/components/issue-op-grid'
+import { type Brand } from '@/lib/brands'
 import { AvailableIssueOps } from '@/lib/data'
 import { Category } from '@/lib/enums'
 
-export const dynamicParams = false
-
-export function generateStaticParams() {
+export function categoryParams() {
   return Object.values(Category).map((category) => ({ category }))
 }
 
-export default async function CategoryPage({
-  params
+export function CategoryPage({
+  brand,
+  category
 }: {
-  params: Promise<{ category: string }>
+  brand: Brand
+  category: string
 }) {
-  const { category } = await params
-
   return (
     <div className="flex flex-1 flex-col gap-4 p-4">
-      <PortalHeader />
+      <PortalHeader brand={brand} />
       <IssueOpGrid
+        brand={brand}
         issueOps={AvailableIssueOps.filter(
           (issueOp) => issueOp.category === category
         )}
       />
+      <PortalFooter brand={brand} />
     </div>
   )
 }

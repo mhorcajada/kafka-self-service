@@ -16,6 +16,7 @@ export const AvailableIssueOps: {
   assignees: string[]
   category: Category
   description: string
+  descriptionEs: string
   enabled: boolean
   icon: LucideIcon // For icons, see: https://lucide.dev/icons
   issueFormTemplate: string
@@ -26,6 +27,7 @@ export const AvailableIssueOps: {
   assignees: issueOp.assignees as string[],
   category: issueOp.category as Category,
   description: issueOp.description as string,
+  descriptionEs: issueOp.description_es as string,
   enabled: issueOp.enabled as boolean,
   icon: Icons[issueOp.icon as keyof typeof Icons] as LucideIcon,
   issueFormTemplate: issueOp.issueFormTemplate as string,

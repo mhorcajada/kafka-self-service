@@ -1,9 +1,12 @@
 [
   {
-    "approvers": ["mhorcajada"],
+    "approvers": [
+      "mhorcajada"
+    ],
     "assignees": [],
     "category": "topics-users",
     "description": "Create a KafkaTopic on kafka-cluster: partitions, retention.ms and cleanup.policy.",
+    "description_es": "Crea un KafkaTopic en kafka-cluster: particiones, retention.ms y cleanup.policy.",
     "enabled": true,
     "icon": "MessagesSquare",
     "issueFormTemplate": "kafka-topic.yml",
@@ -11,10 +14,13 @@
     "name": "Kafka Topic"
   },
   {
-    "approvers": ["mhorcajada"],
+    "approvers": [
+      "mhorcajada"
+    ],
     "assignees": [],
     "category": "topics-users",
     "description": "User with tls or scram-sha-512 authentication, simple ACLs and quotas.",
+    "description_es": "Usuario con autenticación tls o scram-sha-512, ACLs simple y cuotas.",
     "enabled": false,
     "icon": "KeyRound",
     "issueFormTemplate": "kafka-user.yml",
@@ -22,10 +28,13 @@
     "name": "Kafka User"
   },
   {
-    "approvers": ["mhorcajada"],
+    "approvers": [
+      "mhorcajada"
+    ],
     "assignees": [],
     "category": "connect",
     "description": "Create a connector, change its configuration or set its state: running, paused or stopped.",
+    "description_es": "Crea un conector, cambia su configuración o su estado: running, paused o stopped.",
     "enabled": false,
     "icon": "Plug",
     "issueFormTemplate": "kafka-connector.yml",
@@ -33,10 +42,13 @@
     "name": "Kafka Connector"
   },
   {
-    "approvers": ["mhorcajada"],
+    "approvers": [
+      "mhorcajada"
+    ],
     "assignees": [],
     "category": "connect",
     "description": "Change Connect workers: image, replicas, resources and probes.",
+    "description_es": "Cambios en los workers de Connect: imagen, réplicas, recursos y probes.",
     "enabled": false,
     "icon": "Cable",
     "issueFormTemplate": "kafka-connect.yml",
@@ -44,10 +56,13 @@
     "name": "Kafka Connect"
   },
   {
-    "approvers": ["mhorcajada"],
+    "approvers": [
+      "mhorcajada"
+    ],
     "assignees": [],
     "category": "cluster",
     "description": "Change the Kafka resource: version, metadataVersion, listeners or broker config.",
+    "description_es": "Cambios en el recurso Kafka: versión, metadataVersion, listeners o configuración del broker.",
     "enabled": false,
     "icon": "Server",
     "issueFormTemplate": "kafka-cluster.yml",
@@ -55,10 +70,13 @@
     "name": "Kafka Cluster"
   },
   {
-    "approvers": ["mhorcajada"],
+    "approvers": [
+      "mhorcajada"
+    ],
     "assignees": [],
     "category": "cluster",
     "description": "Roles, replicas and storage of a node pool.",
+    "description_es": "Roles, réplicas y almacenamiento de un node pool.",
     "enabled": false,
     "icon": "Layers",
     "issueFormTemplate": "kafka-node-pool.yml",
@@ -66,10 +84,13 @@
     "name": "Kafka Node Pool"
   },
   {
-    "approvers": ["mhorcajada"],
+    "approvers": [
+      "mhorcajada"
+    ],
     "assignees": [],
     "category": "cluster",
     "description": "Cruise Control rebalance with approval. Requires Cruise Control enabled in the Kafka resource.",
+    "description_es": "Rebalanceo con Cruise Control y aprobación. Requiere Cruise Control activo en el recurso Kafka.",
     "enabled": false,
     "icon": "Scale",
     "issueFormTemplate": "kafka-rebalance.yml",
@@ -77,10 +98,13 @@
     "name": "Kafka Rebalance"
   },
   {
-    "approvers": ["mhorcajada"],
+    "approvers": [
+      "mhorcajada"
+    ],
     "assignees": [],
     "category": "integration",
     "description": "HTTP/REST API to produce and consume from Kafka.",
+    "description_es": "API HTTP/REST para producir y consumir en Kafka.",
     "enabled": false,
     "icon": "Globe",
     "issueFormTemplate": "kafka-bridge.yml",
@@ -88,10 +112,13 @@
     "name": "Kafka Bridge"
   },
   {
-    "approvers": ["mhorcajada"],
+    "approvers": [
+      "mhorcajada"
+    ],
     "assignees": [],
     "category": "integration",
     "description": "Replication between Kafka clusters for migrations or DR.",
+    "description_es": "Replicación entre clusters de Kafka para migraciones o DR.",
     "enabled": false,
     "icon": "ArrowLeftRight",
     "issueFormTemplate": "kafka-mirror-maker2.yml",

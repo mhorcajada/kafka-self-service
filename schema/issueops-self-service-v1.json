@@ -36,6 +36,10 @@
         "type": "string",
         "description": "Description of the IssueOps Action"
       },
+      "description_es": {
+        "type": "string",
+        "description": "Spanish description, used by the Quir\u00f3nsalud variant"
+      },
       "enabled": {
         "type": "boolean",
         "description": "true when a workflow processes the request"
@@ -63,6 +67,7 @@
       "assignees",
       "category",
       "description",
+      "description_es",
       "enabled",
       "icon",
       "issueFormTemplate",
