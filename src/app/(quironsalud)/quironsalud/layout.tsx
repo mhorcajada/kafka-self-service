@@ -1,5 +1,8 @@
 import { RootLayout } from '@/components/root-layout'
 import { assetPath, QuironsaludBrand } from '@/lib/brands'
+import '@fontsource/exo/latin-700.css'
+import '@fontsource/open-sans/latin-400.css'
+import '@fontsource/open-sans/latin-700.css'
 import type { Metadata } from 'next'
 import '../../globals.css'
 

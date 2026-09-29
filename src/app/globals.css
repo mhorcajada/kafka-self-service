@@ -168,8 +168,15 @@
     --header-background: 0 0% 100%;
     --card-radius: 1.5rem;
     --button-radius: 9999px;
-    /* Replace with the official typeface */
-    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    /* Fonts from @fontsource, imported in the Quirónsalud layout */
+    font-family: 'Open Sans', sans-serif;
+  }
+  .theme-quironsalud h1 {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+  }
+  .theme-quironsalud .issue-op-title {
+    font-weight: 700;
   }
   .dark {
     --background: 222.2 84% 4.9%;

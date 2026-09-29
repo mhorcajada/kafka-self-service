@@ -140,4 +140,4 @@ npm run dev
 
 ## Credits and license
 
-Based on [issue-ops/self-service](https://github.com/issue-ops/self-service), MIT licensed. See [LICENSE](./LICENSE). Uses the Monaspace Argon font by GitHub Next, licensed under the SIL Open Font License 1.1.
+Based on [issue-ops/self-service](https://github.com/issue-ops/self-service), MIT licensed. See [LICENSE](./LICENSE). Uses the Monaspace Argon font by GitHub Next, and Exo and Open Sans (Quirónsalud variant, installed from [Fontsource](https://fontsource.org)), all licensed under the SIL Open Font License 1.1.

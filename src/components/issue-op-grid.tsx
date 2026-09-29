@@ -44,7 +44,7 @@ export function IssueOpGrid({
           key={issueOp.name}>
           <Card className="h-full flex flex-col min-h-[200px] rounded-[var(--card-radius)]">
             <CardHeader>
-              <CardTitle className="flex items-center gap-2 text-[hsl(var(--card-title))]">
+              <CardTitle className="issue-op-title flex items-center gap-2 text-[hsl(var(--card-title))]">
                 <issueOp.icon className="h-6 w-6 text-[hsl(var(--brand))]" />
                 {issueOp.name}
               </CardTitle>

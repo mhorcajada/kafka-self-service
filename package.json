@@ -10,6 +10,8 @@
     "validate:schema": "node schema/validate.js"
   },
   "dependencies": {
+    "@fontsource/exo": "^5.3.0",
+    "@fontsource/open-sans": "^5.3.0",
     "@primer/octicons-react": "^19.18.0",
     "@radix-ui/react-collapsible": "^1.1.12",
     "@radix-ui/react-dialog": "^1.1.15",
